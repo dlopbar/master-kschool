@@ -1,0 +1,147 @@
+echo lol
+echo $shell
+echo $SHELL
+echo $TERM
+date
+echo $date
+echo $history
+saludo = hola
+saludo=hola
+echo saludo
+echo $(date)
+echo "C:\\Users"
+echo "C:\\\Users"
+echo "holi"; echo "bye"
+clear
+cat /etc/
+cat /etc/os-release
+cat /etc/
+clear
+cat /etc/
+cat /etc/clear
+clear
+cd desktop
+pwd
+ls
+cat data/README.md
+car data/shell/Finn.txt
+cat data/shell/Finn.txt
+clear
+cat data/shell/Text_example.txt
+pwd
+cd data/shell
+cat Text_example.txt
+cd
+clear
+ls
+cd
+ls
+cd
+ls -a
+ls -l
+chmod 777 books
+ls -l
+chmod 700 books
+ls -l
+mkdir
+mkdir midirectorio
+ls
+touch midirectorio/nuevo_archivo
+ls -l midirectorio
+ls --help
+cd --help
+pwd
+cd
+clear
+mkdir --help
+ls --help
+clear
+cp data/shell/Text_example.txt nuevoarchivojeje.txt
+ls data
+ls data/shell
+clear
+mkdir first_dir
+ls
+touch first_dir/text_file.txt
+ls first_dir
+ls -l
+chmod 777 first_dir/text_file.txt
+ls -l
+ls -l first_dir
+chmod 712 first_dir/text_file.txt
+ls -l first_dir
+mkdir -p first_dir/sub1/sub2/text_file
+ls first_dir
+cp first_dir/text_file.txt first_dir/sub1
+ls first_dir
+ls first_dir/sub1
+mv first_dir/text_file.txt first_dir/sub1/sub2/text_file.txt.2
+ls first_dir/sub1/sub2
+cp -r first_dir/sub1 first_dir/sub1/sub2/sub3
+clear
+git
+clear
+mkdir repos
+git config --global user.name="dlopbar"
+git
+git config --global user.name="dlopbar"
+git config --global user.name "dlopbar"
+git config --global user.email  "dlopbar416@gmail.com"
+git clone https://github.com/dlopbar/master-kschool
+ls
+cd master-kschool
+ls
+cat README.md
+git diff
+git add README.md
+git status
+git commit
+git push
+echo $0
+bash
+echo $0
+ls
+clear
+bash
+echo $0
+sudo apt install gedit
+ll -a
+ls -a
+gedit .zshrc
+echo $EDITOR
+gedit .zshrc
+echo $EDITOR
+gedit .zshrc
+echo $EDITOR
+gedit .zshrc
+echo $EDITOR
+zsh
+echo $0
+zsh
+echo $EDITOR
+clear
+cat .history
+history
+history 30
+clear
+ls
+cd master-school
+cd master-kschool
+git remote -v
+cat.gitconfig
+cd
+cat .gitconfig
+gedit .gitconfig
+cat .gitconfig
+cd master-kschool
+ls
+clear
+cd
+gedit .gitconfig
+clear
+cd -
+clear
+cd
+gedit .zsrh
+cd master-kschool
+cp ~/.history .
