@@ -279,3 +279,84 @@ ls
 cd master-kschool
 git status
 cp ~/.history .
+git status
+git add -u
+git status
+git commit -m "update of history file"
+git push
+clear
+cd
+data
+cd data
+cd shell
+grep this Text_example.txt
+grep -n this Text_example.txt
+grep -nv this Text_example.txt
+grep -nA emty Text_example.txt
+grep -nA empty Text_example.txt
+grep -nA 1 empty Text_example.txt
+grep -nA 1 empty Finn.txt Text_example.txt uniq_example.txt 
+cd.
+cd
+data
+cd data
+cd
+cd .
+cd data
+cd shell
+clear
+grep -n "^T"
+grep -n "^T" Text_example.txt
+echo Sunday | sed ssdaysnights
+echo Sunday
+echo Sunday | sed 's/day/night/'
+echo day.day | sed 's/day/night/'
+echo day.day | sed 's/day/night/g'
+echo day.Day | sed 's/day/night/g'
+echo day.day | sed 's/day/night/gi'
+cat Text_example.txt | sed 's/this/THAT/gi'
+cp Text_example.txt Text_example_copy.txt
+sed -i 's/this/THAT/gi' Text_example_copy.txt
+cat Text_example.txt
+seq 10 15
+seq 10 15 | sed '3d'
+seq 10 15 | sed '/13/d'
+seq 10 15 | sed '3!d'
+cd ../opentraveldata
+csvlook
+csvlook -d "^" optd_aircraft.csv
+csvlook -d "^" optd_aircraft.csv | less
+qq
+csvstat optd_aircraft.csv
+csvstat -d "^" optd_aircraft.csv | less
+csvsql -d "^" -i postgresql optd_aircraft.csv
+clear
+zip text_files.zip first_10_lines.txt largest_file.txt linea_num_10.txt optd_aircraft.csv optd_aircraft_delimitador_nuevo.csv optd_airlines.csv optd_por_public.csv ref_airline_nb_of_flights.csv 
+ll
+zipinfo text_files.zip
+zcat text_files.zip
+gzip first_10_lines.txt largest_file.txt linea_num_10.txt 
+ll
+zcat linea_num_10.txt.gz
+zless linea_num_10.txt.gz
+clear
+gunzip *.text
+gunzip first_10_lines.txt.gz largest_file.txt.gz linea_num_10.txt.gz 
+ll
+bzip2 optd_aircraft.csv optd_aircraft_delimitador_nuevo.csv optd_airlines.csv optd_por_public.csv ref_airline_nb_of_flights.csv 
+ll
+bunzip2 optd_aircraft.csv.bz2 optd_aircraft_delimitador_nuevo.csv.bz2 optd_airlines.csv.bz2 optd_por_public.csv.bz2 ref_airline_nb_of_flights.csv.bz2 
+ll
+clear
+tar -czvf opentraveldata.tar optd_aircraft.csv optd_aircraft_delimitador_nuevo.csv optd_airlines.csv optd_por_public.csv ref_airline_nb_of_flights.csv 
+ll
+tar -czjf opentraveldata.tar optd_aircraft.csv optd_aircraft_delimitador_nuevo.csv optd_airlines.csv optd_por_public.csv ref_airline_nb_of_flights.csv 
+mkdir tar1
+mv opentraveldata.tar tar1
+ll
+cd tar1
+tar -xvf opentrabeldata.tar
+tar -xvf opentraveldata.tar
+cd
+cd master-kschool
+cp ~/.history .
